@@ -1,0 +1,42 @@
+body{
+background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+
+body > #container{
+    border: 50px;
+    margin: 100px 75% 24px 35%;
+    
+}
+
+#container{
+    background-color: white;
+    width: 550px;
+    height: 450px;  
+    margin: 10px;
+    border: 5px solid black;
+}
+
+#screen-display{
+    background-color: black;
+    width: 550px;
+    height: 125px;
+}
+
+#numbers{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.numb{
+    width: 10%;
+    padding: 10px;
+    border: 25px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.numb:nth-child(odd){
+    order: 4;
+}
